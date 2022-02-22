@@ -1,0 +1,16 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar>
+        <Label text="Prvi projekt" />
+    </ActionBar>
+
+        <GridLayout rows="30, 30, 30, 50, 30" columns="20,*,20" >
+            <Label text="{{ 'X: ' + x }}" visibility="{{ visibility }}" row="0" col="1" backgroundColor="#43b883" class="hide"></Label>
+            <Label text="{{ 'Y: ' + y }}" visibility="{{ visibility }}" row="1" col="1" backgroundColor="#289062" class="hide"></Label>
+            <Label text="{{ 'Z: ' + z }}" visibility="{{ visibility }}" row="2" col="1" backgroundColor="#1c6b48" class="hide"></Label>
+            
+            <Button text="{{ btnText }}" class="-primary" row="3" col="1" tap="{{ onTap }}"></Button>
+           
+            
+            <Label text="{{ 'Temperatura: ' + t + ' C'}}" visibility="{{ visibility }}" row="4" col="1" backgroundColor="#90EE90" class="hide"></Label>
+        </GridLayout>
+</Page>
