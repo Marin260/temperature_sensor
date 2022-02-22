@@ -30,8 +30,6 @@ export function HomeViewModel() {
     nativeDelay
   );
 
-
-  
   viewModel.t = 0
   viewModel.x = 10
   viewModel.y = 20
