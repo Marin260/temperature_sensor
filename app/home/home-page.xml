@@ -11,6 +11,6 @@
             <Button text="{{ btnText }}" class="-primary" row="3" col="1" tap="{{ onTap }}"></Button>
            
             
-            <Label text="{{ 'Temperatura: ' + t + ' C'}}" visibility="{{ visibility }}" row="4" col="1" backgroundColor="#90EE90" class="hide"></Label>
+            <Label text="{{ 'Temperatura: ' + t}}" visibility="{{ visibility }}" row="4" col="1" backgroundColor="#90EE90" class="hide"></Label>
         </GridLayout>
 </Page>
