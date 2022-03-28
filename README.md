@@ -117,6 +117,10 @@ Ako promjenimo vrijednost temperature u postavkama možemo vidjeti kako se mjenj
 
 ![test2](test2.png)
 
+#### 2. Profiliranje
+Nakon profiliranja i korištenja aplikacije možemo vidjeti kako je aplikacija stabilna i ne zahtjeva mnogo resursa od uređaja. Unatoč tome, postoji prostor za optimizaciju kao što je smanjiti broj puta kojime se podaci sa senzora osviježavaju. Dodatno, aplikacija možda ne zahtjeva puno memorije i CPU snage no bilo bi dobro kontrolirati uporabu senzora onako kako je definirano u službenoj andorid dokumentaciji. Senzore moramo ručno paliti i gasiti u kodu kako nebi trošili bateriju uređaja (u ovom slučaju nije se pazlilo na to).
+![profiliranje](profiliranje.png)
+
 ###### Kod aplikacije
 
 Kod aplikacije dostupan je na githubu na sljedećoj poveznici.
