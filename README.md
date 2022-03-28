@@ -29,6 +29,7 @@ Da bi mogli koristiti funkciju `onTap` potrebno ju je definirati u `hove-view-mo
     }
 ```
 Atribut `visibility`, čija je početna zadana vrijednost postavljena na `visible`, nam označava hoće li se element sa tim atributom vidjeti na ekranu. Svi elementi `GridLayout`-a u `home-page.xml` imaju vrijednost tog atributa postavljeno kao varijablu. Svakim klikom gumba mijenjamo vrijednosti te varijable vizibilnosti i mjenjamo text prikaza na gumbu.
+
 ![Reaveald screen](reveal.png).
 ![Hidden screen](hidden.png).
 
